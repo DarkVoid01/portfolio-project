@@ -1,0 +1,43 @@
+.projects{
+    color: #e5e5e5;
+
+    .project-types{
+        width: 100vw;
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+
+        .type{
+            border: 1px solid #e5e5e5;
+            padding: 10px;
+            font-size: 3rem;
+        }
+        .type:hover{
+            color: #0a0a0a;
+            background-color: #e5e5e5;
+            transition: all 500ms ease-in-out;
+        }
+    }
+
+    .portfolio__container{
+        display: grid;
+        grid-template-columns: 50% 50%;
+
+        .container{
+            margin: 10px;
+            border: 1px solid #e5e5e5;
+            height: 80vh;
+
+            .image{
+                height: 80%;
+                background-color: #e5e5e5;
+            }
+            .name{
+                margin: 10px;
+                font-size: 2rem;
+            }
+            .info{
+                margin: 10px;
+            }
+        }
+    }
+}

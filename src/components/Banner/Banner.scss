@@ -1,0 +1,16 @@
+.banner{
+    height: 100vh;
+    text-align: left;
+    width: 100vw;
+
+    .main-text{
+        font-size: 15rem;
+        margin: 10px;
+        letter-spacing: -13px;
+    }
+
+    .minor-text{
+        font-size: 1.5rem;
+        margin: 10px;
+    }
+}

@@ -1,0 +1,51 @@
+.featured-projects{
+
+    .heading{
+        border: 1px solid #E5E5E5;
+        padding-left: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .project-wrapper{
+        border: 1px solid #E5E5E5;
+        border-top: 0px;
+        
+
+        .project{
+            display: flex;
+            flex-direction: column;
+           
+
+            .project-text{
+                border-bottom: 1px solid #E5E5E5;
+                display: grid;
+                grid-template-columns: 50% 50%;
+                height: 30vh;
+                
+                .name{
+                   padding: 10px;
+                   font-size: 5rem;
+                   border-right: 1px solid #E5E5E5;
+                   letter-spacing: -0.2rem;
+                }
+
+                .task{
+                    padding: 10px;
+                    height: max-content;
+                }
+            }
+
+            .project-image{
+                height: 55vh;
+                border-bottom: 1px solid #E5E5E5;
+            }
+        }
+    }
+
+    .see-more{
+        margin: 10px;
+        text-align:   end;
+        text-decoration: underline;
+    }
+}
