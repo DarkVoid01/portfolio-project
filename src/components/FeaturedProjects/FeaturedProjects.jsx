@@ -48,7 +48,7 @@ const FeaturedProjects = () => {
          
           </div>
           <div className="see-more">
-            <Link to='projects'>
+            <Link to='/projects'>
                 See more.
             </Link>
            
