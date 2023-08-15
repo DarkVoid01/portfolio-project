@@ -10,7 +10,7 @@ const Navbar = () => {
     <div className='navbar'>
       <div className="navigation">
       <a href="/" className="brand-name">
-        MacroSoft
+        
       </a>
       <button
         className="hamburger"
