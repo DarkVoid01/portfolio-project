@@ -14,3 +14,21 @@
         margin: 10px;
     }
 }
+@media (min-width: 300px) {
+    .banner{
+        height: 80vh;
+        text-align: left;
+        width: 100vw;
+    
+        .main-text{
+            font-size: 7rem;
+            margin-top: 50px;
+            letter-spacing: -8px;
+        }
+    
+        .minor-text{
+            font-size: 1.5rem;
+            margin: 10px;
+        }
+    }
+}

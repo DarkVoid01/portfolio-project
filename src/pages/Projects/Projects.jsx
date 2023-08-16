@@ -32,16 +32,24 @@ const Projects = () => {
       <Navbar/>
       <div className="project-types">
         <div className="type"  active={filter === "all"} onClick={() => setFilter("frontend")}>
-          WEBSITES
+          <div className="type-container">
+            WEBSITES
+          </div>
         </div>
         <div className="type"  active={filter === "all"} onClick={() => setFilter("sm-posts")}>
-          SM-POSTS
+          <div className="type-container">
+            SM POSTERS
+          </div>
         </div>
         <div className="type" active={filter === "all"} onClick={() => setFilter("posters")}>
-          POSTERS
+          <div className="type-container">
+            POSTERS
+          </div>
         </div>
         <div className="type" active={filter === "all"} onClick={() => setFilter("covers")}>
-          COVERS
+          <div className="type-container">
+            COVERS
+          </div>
         </div>
       </div>
       <div className="portfolio__container">
