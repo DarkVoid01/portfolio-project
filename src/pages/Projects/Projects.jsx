@@ -30,6 +30,9 @@ const Projects = () => {
       <Cursor/>
       <MarqueeComp/>
       <Navbar/>
+      <div className="heading">
+        Projects
+      </div>
       <div className="project-types">
         <div className="type"  active={filter === "all"} onClick={() => setFilter("frontend")}>
           <div className="type-container">
