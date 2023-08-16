@@ -14,6 +14,14 @@ const About = () => {
         <div className="heading">
           About
         </div>
+        <div className="about-me">
+          <div className="content">
+            content
+          </div>
+          <div className="image">
+            image
+          </div>
+        </div>
     </div>
   )
 }
