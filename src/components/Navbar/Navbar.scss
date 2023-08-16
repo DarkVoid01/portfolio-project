@@ -25,10 +25,10 @@
   .navigation-menu ul {
     flex-direction: column;
     position: absolute;
-    top: 50px;
+    top: -10px;
     width: 100vw;
     height: 100vh;
-    background-color: yellow;
+    background-color: black;
     border-top: 1px solid black;
     display: none;
     color: #eaeaea;
@@ -62,6 +62,7 @@
     right: 25px;
     transform: translateY(-50%);
     background-color: transparent;
+    z-index: 1000;
   }
   .navigation-menu li {
     text-align: left;
@@ -81,23 +82,90 @@
     text-align: left;
   }
   
-  @media screen and (max-width: 550px) {
-  
-    // .navigation-menu ul {
-    //   flex-direction: column;
-    //   position: absolute;
-    //   top: 60px;
-    //   left: 0;
-    //   width: 100%;
-    //   height: calc(100vh - 60px);
-    //   background-color: white;
-    //   border-top: 1px solid black;
-    //   display: none;
-    // }
-  
-   
-  
-   
+  @media (min-width: 300px){
+    .navigation {
+      position: fixed;
+      display: flex;
+      align-items: left;
+      height: 60px;
+      width: 100%;
+      background-color: transparent;
+      color: #eaeaea;
+    }
     
+    .brand-name {
+      text-decoration: none;
+      color: black;
+      font-size: 1.3rem;
+    }
+    
+    .navigation-menu {
+      
+    }
+    
+  //   .navigation-menu ul {
+  //     display: flex;
+  //     padding: 0;
+  //   }
+    .navigation-menu ul {
+      flex-direction: column;
+      position: absolute;
+      top: -10px;
+      width: 100vw;
+      height: 100vh;
+      background-color: black;
+      border-top: 1px solid black;
+      display: none;
+      color: #eaeaea;
+      text-align: left;
+      align-items: start;
+      margin-left: 0;
+    }
+    
+    .navigation-menu li {
+      list-style-type: none;
+      
+    }
+    
+    .navigation-menu li a {
+      text-decoration: none;
+      display: block;
+      width: 100%;
+      text-align: left;
+    }
+    
+    .hamburger {
+      border: 0;
+      height: 40px;
+      width: 40px;
+      padding: 0.5rem;
+      border-radius: 50%;
+      cursor: pointer;
+      transition: background-color 0.2s ease-in-out;
+      position: absolute;
+      top: 50%;
+      right: 25px;
+      transform: translateY(-50%);
+      background-color: transparent;
+    }
+    .navigation-menu li {
+      text-align: left;
+      margin: 0px;
+      
+    }
+  
+    .navigation-menu li a {
+      color: #eaeaea;
+      width: 100%;
+      border: 1px solid #eaeaea;
+      padding: 10px;
+      font-size: 80px;
+      letter-spacing: -6px;
+    }
+  
+  
+    .navigation-menu.expanded ul {
+      padding: 0;
+    }
   }
   
