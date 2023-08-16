@@ -15,6 +15,11 @@
             color: #0a0a0a;
             background-color: #e5e5e5;
             transition: all 500ms ease-in-out;
+            
+            .type-container{
+                color: #0a0a0a;
+                background: transparent;
+            }
         }
     }
 
@@ -43,5 +48,48 @@
 }
 
 @media (min-width: 300px){
-
+    .projects{
+        color: #e5e5e5;
+    
+        .project-types{
+            width: 100vw;
+            display: flex;
+            flex-wrap: wrap;
+                
+            .type{
+                border: 1px solid #e5e5e5;
+                padding: 10px;
+                font-size: 1.5rem;
+                width: 30%;
+            }
+            .type:hover{
+                color: #0a0a0a;
+                background-color: #e5e5e5;
+                transition: all 500ms ease-in-out;
+            }
+        }
+    
+        .portfolio__container{
+            display: flex;
+            flex-direction: column;
+    
+            .container{
+                margin: 10px;
+                border: 1px solid #e5e5e5;
+                height: 80vh;
+    
+                .image{
+                    height: 80%;
+                    background-color: #e5e5e5;
+                }
+                .name{
+                    margin: 10px;
+                    font-size: 2rem;
+                }
+                .info{
+                    margin: 10px;
+                }
+            }
+        }
+    }
 }
