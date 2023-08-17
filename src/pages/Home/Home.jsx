@@ -4,6 +4,7 @@ import FeaturedProjects from '../../components/FeaturedProjects/FeaturedProjects
 import MarqueeComp from '../../components/Marquee/MarqueeComp'
 import Navbar from '../../components/Navbar/Navbar'
 import Cursor from '../../components/Cursor/Cursor'
+import Services from '../../components/Services/Services'
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
        <Navbar/>
       <Banner/>
       <FeaturedProjects/>
+      <Services/>
     </div>
   )
 }

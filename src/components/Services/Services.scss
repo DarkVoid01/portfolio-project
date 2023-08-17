@@ -1,0 +1,20 @@
+.services{
+    .heading{
+        border: 1px solid #e5e5e5;
+        padding: 5px;
+        padding-left: 10px;
+    }
+    .services-wrapper{
+
+        .service{
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px solid #e5e5e5;
+            border-right: 1px solid #e5e5e5;
+            font-size: 3rem;
+            padding: 10px;
+            gap: 30px;
+            border-left: 1px solid #e5e5e5;
+        }
+    }
+}

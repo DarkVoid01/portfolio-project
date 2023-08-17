@@ -51,9 +51,9 @@
   
   .hamburger {
     border: 0;
-    height: 40px;
-    width: 40px;
-    padding: 10px;
+    height: 60px;
+    width: 60px;
+    padding: 30px;
     border-radius: 50%;
     cursor: pointer;
     transition: background-color 0.2s ease-in-out;
@@ -63,6 +63,7 @@
     transform: translateY(-50%);
     background-color: transparent;
     z-index: 1000;
+    mix-blend-mode: difference;
   }
   .navigation-menu li {
     text-align: left;
