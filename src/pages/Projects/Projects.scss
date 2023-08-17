@@ -4,17 +4,24 @@
     .heading{
         font-size: 5rem;
         padding: 10px;
+        letter-spacing: -5px;
     }
 
     .project-types{
-        width: 100vw;
-        display: grid;
-        grid-template-columns: 25% 25% 25% 25%;
+        display: flex;
+        justify-content: space-between;
+        border-top: 1px solid #e5e5e5;
+        border-bottom: 1px solid #e5e5e5;
+        border-right: 1px solid #e5e5e5;
             
         .type{
-            border: 1px solid #e5e5e5;
-            padding: 10px;
+            border-left: 1px solid #e5e5e5;
             font-size: 3rem;
+            width: 100%;
+
+            .type-container{
+                margin: 10px;
+            }
         }
         .type:hover{
             color: #0a0a0a;
@@ -55,20 +62,18 @@
 @media (max-width: 800px){
     .projects{
         color: #e5e5e5;
-        width: 100vw;
     
         .project-types{
-            width: 100%;
             display: flex;
             flex-wrap: wrap;
-            margin-left: 10px;
             margin-right: 0;
+            border-bottom: 0;
                 
             .type{
-                border: 1px solid #e5e5e5;
+                border-bottom: 1px solid #e5e5e5;
                 padding: 10px;
-                font-size: 1.5rem;
-                width: 33%;
+                font-size: 3rem;
+                letter-spacing: -3px;
             }
             .type:hover{
                 color: #0a0a0a;
@@ -78,14 +83,15 @@
         }
     
         .portfolio__container{
+            margin-top: 50px;
             display: flex;
             flex-direction: column;
+            gap: 10px;
     
             .container{
-                margin: 10px;
                 border: 1px solid #e5e5e5;
                 height: 80vh;
-    
+                margin: 0;
                 .image{
                     height: 80%;
                     background-color: #e5e5e5;
