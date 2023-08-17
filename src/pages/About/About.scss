@@ -12,7 +12,10 @@
             width: 50%;
             border: 1px solid #e5e5e5e5;
             height: 80vh;
-            padding: 10px;
+            
+            .text{
+                margin: 10px;
+            }
         }
         .image{
             width: 50%;
