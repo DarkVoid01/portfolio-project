@@ -12,6 +12,7 @@
             width: 50%;
             border: 1px solid #e5e5e5e5;
             height: 80vh;
+            padding: 10px;
         }
         .image{
             width: 50%;
@@ -33,7 +34,6 @@
         .about-me{
             display: flex;
             flex-direction: column;
-            margin: 10px;
 
             .content{
                 width: 100%;
