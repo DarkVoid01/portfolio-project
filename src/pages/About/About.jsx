@@ -3,6 +3,8 @@ import "./About.scss"
 import MarqueeComp from '../../components/Marquee/MarqueeComp'
 import Navbar from '../../components/Navbar/Navbar'
 import Cursor from '../../components/Cursor/Cursor'
+import Contact from '../Contact/Contact'
+import Footer from '../../components/Footer/Footer'
 
 
 const About = () => {
@@ -24,6 +26,7 @@ const About = () => {
             image
           </div>
         </div>
+        <Footer/>
     </div>
   )
 }

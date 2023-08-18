@@ -7,6 +7,7 @@ import Navbar from '../../components/Navbar/Navbar'
 import Portfolio from "./Portfolio"
 import { useState, useEffect } from 'react'
 import Cursor from '../../components/Cursor/Cursor'
+import Footer from '../../components/Footer/Footer'
 
 const Projects = () => {
   const [filter, setFilter] = useState("all");
@@ -72,6 +73,7 @@ const Projects = () => {
           : ""
         )}
       </div>
+      <Footer/>
     </div>
   )
 }

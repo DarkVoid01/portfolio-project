@@ -5,6 +5,7 @@ import MarqueeComp from '../../components/Marquee/MarqueeComp'
 import Navbar from '../../components/Navbar/Navbar'
 import Cursor from '../../components/Cursor/Cursor'
 import Services from '../../components/Services/Services'
+import Footer from '../../components/Footer/Footer'
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <Banner/>
       <FeaturedProjects/>
       <Services/>
+      <Footer/>
     </div>
   )
 }

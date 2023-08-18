@@ -2,6 +2,56 @@
     .heading{
         font-size: 5rem;
         letter-spacing: -5px;
+        margin: 10px;
+        margin-bottom: 30px;
 
+    }
+
+    .content{
+        display: flex;
+        justify-content: space-between;
+        border: 1px solid #e5e5e5;
+
+        .text{
+            text-transform: uppercase;
+           
+            width: 50%;
+            border-right: 1px solid #e5e5e5;
+
+            .text-container{
+                margin: 10px;
+                font-size: 2rem;
+            }
+        }
+    }
+}
+
+@media (max-width: 800px){
+    .contact{
+        .heading{
+            font-size: 5rem;
+            letter-spacing: -5px;
+            margin: 10px;
+            margin-bottom: 30px;
+    
+        }
+    
+        .content{
+            display: flex;
+            flex-direction: column;
+            border: 1px solid #e5e5e5;
+    
+            .text{
+                width: 100%;
+                text-transform: uppercase;
+                border-right: 0px solid #e5e5e5;
+                border-bottom: 1px solid #e5e5e5;
+    
+                .text-container{
+                    margin: 10px;
+                    font-size: 2rem;
+                }
+            }
+        }
     }
 }
