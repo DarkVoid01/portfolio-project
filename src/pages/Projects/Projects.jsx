@@ -67,7 +67,12 @@ const Projects = () => {
               {item.name}
             </div>
             <div className="info">
-                random stuff
+               <div className="description">
+                  {item.description}
+               </div>
+               <div className="link">
+                  <a href={item.link}>Link</a>
+               </div>
             </div>
           </div>
           : ""

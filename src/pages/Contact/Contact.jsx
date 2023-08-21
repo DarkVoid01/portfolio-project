@@ -7,7 +7,8 @@ import Footer from '../../components/Footer/Footer'
 const Contact = () => {
   return (
     <div className='contact'>
-       <Cursor/>
+      <div className="wrapper">
+      <Cursor/>
        <MarqueeComp/>
        <Navbar/>
        <div className="heading">
@@ -22,7 +23,9 @@ const Contact = () => {
          </div>
        </div>
        <div className="form">
-          form
+        form
+         {/* <form onSubmit={handleOnSubmit}></form> */}
+       </div>
        </div>
        </div>
        <Footer/>

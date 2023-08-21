@@ -1,0 +1,55 @@
+.banner-image{
+    margin-bottom: 40px;
+    .wrapper{
+    
+    .images-container{
+        margin-top: 40px;
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+
+        .image{
+            background-color: yellow;
+            height: 150px;
+            opacity: 0;
+            margin-left: 10px;
+            
+            .image:last-child{
+                margin-right: 10px;
+            }
+        }
+        .image:hover{
+              opacity: 1;
+        }
+      
+    }
+    }
+}
+
+@media (max-width: 800px) {
+    .banner-image{
+        margin-bottom: 40px;
+        box-sizing: border-box;
+        .wrapper{
+         
+        .images-container{
+            display: grid;
+            grid-template-columns: 50% 50%;
+            
+
+            
+            
+    
+            .image{
+                box-sizing: border-box;
+                opacity: 1;
+                text-align: center;
+                margin: 0;
+                margin-left: 0;
+                width: 100%;
+                opacity: 1;
+            }
+          
+        }
+    }
+}
+}

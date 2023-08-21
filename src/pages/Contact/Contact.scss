@@ -1,4 +1,7 @@
 .contact{
+    .wrapper{
+        min-height: 100vh;
+    
     .heading{
         font-size: 5rem;
         letter-spacing: -5px;
@@ -9,21 +12,22 @@
 
     .content{
         display: flex;
-        justify-content: space-between;
-        border: 1px solid #e5e5e5;
 
         .text{
-            text-transform: uppercase;
            
             width: 50%;
-            border-right: 1px solid #e5e5e5;
 
             .text-container{
                 margin: 10px;
-                font-size: 2rem;
+                font-size: 1.5rem;
+                width: 100%;
             }
         }
+        .form{
+            width: 50%;
+        }
     }
+}
 }
 
 @media (max-width: 800px){
@@ -39,18 +43,18 @@
         .content{
             display: flex;
             flex-direction: column;
-            border: 1px solid #e5e5e5;
     
             .text{
                 width: 100%;
-                text-transform: uppercase;
-                border-right: 0px solid #e5e5e5;
-                border-bottom: 1px solid #e5e5e5;
     
                 .text-container{
+                    width: 100%;
                     margin: 10px;
-                    font-size: 2rem;
+                    font-size: 1.5rem;
                 }
+            }
+            .form{
+                width: 100%;
             }
         }
     }
