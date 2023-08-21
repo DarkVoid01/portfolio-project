@@ -60,8 +60,8 @@ const Projects = () => {
         {projects.map(item =>
           item.filtered === true ? 
           <div className="container">
-            <div className="image">
-
+            <div className="image" style={{backgroundColor: item.background}}>
+                <img src={item.image} alt="Project" style={{height: item.height }} />
             </div>
             <div className="name">
               {item.name}
@@ -69,6 +69,9 @@ const Projects = () => {
             <div className="info">
                <div className="description">
                   {item.description}
+               </div>
+               <div className="stack">
+                  {item.stack}
                </div>
                <div className="link">
                   <a href={item.link}>Link</a>

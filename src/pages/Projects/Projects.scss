@@ -45,8 +45,14 @@
             height: 80vh;
 
             .image{
+                display: flex;
                 height: 80%;
-                background-color: #e5e5e5;
+                text-align: center;
+
+                img{
+                    height: 40%;
+                    margin: auto;
+                }
             }
             .name{
                 margin: 10px;
