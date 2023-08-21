@@ -2,9 +2,15 @@ import React from 'react'
 import Cursor from '../../components/Cursor/Cursor'
 import MarqueeComp from '../../components/Marquee/MarqueeComp'
 import Navbar from '../../components/Navbar/Navbar'
+import { useForm, ValidationError } from '@formspree/react';
 import "./Contact.scss"
 import Footer from '../../components/Footer/Footer'
+import { useState } from 'react';
 const Contact = () => {
+  const [state, handleSubmit] = useForm("mvojakba");
+  if (state.succeeded) {
+      return <p>Thanks for contacting me!</p>;
+  }
   return (
     <div className='contact'>
       <div className="wrapper">
@@ -23,8 +29,43 @@ const Contact = () => {
          </div>
        </div>
        <div className="form">
-        form
-         {/* <form onSubmit={handleOnSubmit}></form> */}
+          <form onSubmit={handleSubmit}>
+            <label htmlFor="email">
+              Email Address
+            </label>
+            <input
+              id="email"
+              type="email" 
+              name="email"
+            />
+            <ValidationError 
+              prefix="Email" 
+              field="email"
+              errors={state.errors}
+            />
+             <label htmlFor="Service">
+              Service
+            </label>
+            <select name="services" id="">
+              <option value="One pager">One Pager</option>
+              <option value="E-commerce">E-commerce</option>
+            </select>
+            <label htmlFor="Message">
+              Message
+            </label>
+            <textarea
+              id="message"
+              name="message"
+            />
+            <ValidationError 
+              prefix="Message" 
+              field="message"
+              errors={state.errors}
+            />
+            <button type="submit" disabled={state.submitting}>
+              Submit
+            </button>
+        </form>
        </div>
        </div>
        </div>

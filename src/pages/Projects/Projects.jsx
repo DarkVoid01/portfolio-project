@@ -74,7 +74,7 @@ const Projects = () => {
                   {item.stack}
                </div>
                <div className="link">
-                  <a href={item.link}>Link</a>
+                  <a href={item.link}>{item.space}</a>
                </div>
             </div>
           </div>

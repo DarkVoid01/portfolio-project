@@ -7,7 +7,8 @@ var Portfolio = [
         stack: 'HTML, CSS, JS',
         background: "#181818",
         image: "../images/XIRI.jpg",
-        height: "30%"
+        height: "30%",
+        space: "Link"
     },
     {
         name: 'sm post 1',
@@ -29,9 +30,9 @@ var Portfolio = [
         name: 'Cover 1',
         category: ['all', 'covers'],
         description: "A website for a company",
-        background: "white",
-        image: "../images/XIRI.jpg",
-        height: "40%"
+        background: "black",
+        image: "../images/justbecause.jpg",
+        height: "80%"
     },
     {
         name: 'CGMI',
@@ -41,15 +42,16 @@ var Portfolio = [
         stack: 'HTML, CSS, JS',
         background: "white",
         image: "../images/CGMI.jpg",
-        height: "40%"
+        height: "40%",
+        space: "Link"
     },
     {
         name: 'cover 2',
         category: ['all', 'covers'],
         description: "A website for a company",
-        background: "yellow",
-        image: "../images/XIRI.jpg",
-        height: "40%"
+        background: "black",
+        image: "../images/Kingztable.jpg",
+        height: "80%"
     },
     {
         name: 'poster 2',

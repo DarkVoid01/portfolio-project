@@ -12,19 +12,61 @@
 
     .content{
         display: flex;
+        justify-content: space-between;
 
         .text{
-           
-            width: 50%;
 
             .text-container{
                 margin: 10px;
                 font-size: 1.5rem;
-                width: 100%;
+                width: 60%;
             }
         }
         .form{
-            width: 50%;
+            margin: 10px;
+            min-width: 600px;
+
+            form{
+                display: flex;
+                flex-direction: column;
+            }
+            input{
+                height: 50px;
+                margin-top: 10px;
+                background-color: #eaeaee;
+                border: 1px solid #eaeaea;
+                color: #0a0a0a;
+                font-size: 1.5rem;
+                padding: 10px;
+                box-sizing: border-box;
+                margin-bottom: 20px;
+            }
+            label{
+                font-size: 2rem;
+            }
+            textarea{
+                min-height: 300px;
+                margin-top: 10px;
+                background-color: #eaeaee;
+                font-size: 1.5rem;
+                padding: 10px;
+                box-sizing: border-box;
+                color: #0a0a0a;
+            }
+            button{
+                margin-top: 10px;
+                width: 100px;
+                color: black;
+                height: 30px;
+            }
+            select{
+                 background-color: #eaeaee;
+                 height: 50px;
+                 font-size: 1.5rem;
+                 color: #0a0a0a;
+                 margin-top: 10px;
+                 margin-bottom: 20px;
+            }
         }
     }
 }
@@ -54,7 +96,7 @@
                 }
             }
             .form{
-                width: 100%;
+              
             }
         }
     }
