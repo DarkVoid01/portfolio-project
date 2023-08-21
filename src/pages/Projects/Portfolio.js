@@ -7,7 +7,7 @@ var Portfolio = [
         stack: 'HTML, CSS, JS',
         background: "#181818",
         image: "../images/XIRI.jpg",
-        height: "40%"
+        height: "30%"
     },
     {
         name: 'sm post 1',
