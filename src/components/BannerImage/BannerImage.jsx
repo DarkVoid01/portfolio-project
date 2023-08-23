@@ -8,22 +8,22 @@ const BannerImage = () => {
         <div className="images-container">
             <div className="image-container">
               <div className="image">
-                    
+                  <img src="../images/testing.jpeg"/>
               </div>
             </div>
             <div className="image-container">
               <div className="image">
-
+              <img src="../images/testing.jpeg"/>
               </div>
             </div>
             <div className="image-container">
               <div className="image">
-
+              <img src="../images/testing.jpeg"/>
               </div>
             </div>
             <div className="image-container">
               <div className="image">
-
+              <img src="../images/testing.jpeg"/>
               </div>
             </div>
         </div>

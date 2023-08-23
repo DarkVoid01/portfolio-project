@@ -1,10 +1,11 @@
 .featured-projects{
-
+    color: #E5E5E5;
     .heading{
         border: 1px solid #E5E5E5;
         padding-left: 10px;
         padding-top: 5px;
         padding-bottom: 5px;
+        color: #E5E5E5;
     }
 
     .project-wrapper{
@@ -23,23 +24,46 @@
                 display: grid;
                 grid-template-columns: 50% 50%;
                 height: 30vh;
+                color: #E5E5E5;
                 
                 .name{
                    padding: 10px;
                    font-size: 5rem;
                    border-right: 1px solid #E5E5E5;
-                   letter-spacing: -0.2rem;
+                   letter-spacing: -6px;
+                   color: #E5E5E5;
                 }
 
-                .task{
-                    padding: 10px;
-                    height: max-content;
+                .role{
+                    display: flex;
+                    flex-direction: column;
+
+                    .task{
+                        padding: 10px;
+                        height: max-content;
+                        color: #E5E5E5;
+                        font-size: 2rem;
+                    }
+
+                    .task-details{
+                        margin: 10px;
+                        font-size: 1.5rem;
+                    }
                 }
+
+                
             }
 
             .project-image{
                 height: 55vh;
+                display: flex;
                 border-bottom: 1px solid #E5E5E5;
+
+
+                img{
+                   
+                    margin: auto;
+                }
             }
         }
     }
@@ -48,6 +72,7 @@
         margin: 10px;
         text-align:   end;
         text-decoration: underline;
+        color: #E5E5E5;
     }
 }
 

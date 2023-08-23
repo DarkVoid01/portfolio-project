@@ -8,13 +8,20 @@
         grid-template-columns: 25% 25% 25% 25%;
 
         .image{
-            background-color: yellow;
+            background-color: #e5e5e5;
             height: 150px;
             opacity: 0;
             margin-left: 10px;
             
             .image:last-child{
                 margin-right: 10px;
+            }
+            img{
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+                top: 0%;
+                filter: grayscale(1);
             }
         }
         .image:hover{

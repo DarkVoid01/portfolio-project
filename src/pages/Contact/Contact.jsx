@@ -46,10 +46,11 @@ const Contact = () => {
              <label htmlFor="Service">
               Service
             </label>
-            <select name="services" id="">
-              <option value="One pager">One Pager</option>
-              <option value="E-commerce">E-commerce</option>
-            </select>
+            <input
+              id="service"
+              type="text" 
+              name="service"
+            />
             <label htmlFor="Message">
               Message
             </label>
