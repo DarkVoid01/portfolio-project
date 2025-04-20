@@ -11,6 +11,20 @@ const FeaturedProjects = () => {
             image: "../images/XIRI.jpg",
             height: "30%",
         },
+        {
+            name: "PIP AI",
+            task_details: "HTML, CSS, JS, UI/UX, TAILWIND",
+            background: "#181818",
+            image: "../images/pipai.png",
+            height: "30%",
+        },
+        {
+            name: "XIRI",
+            task_details: "HTML, CSS, JS, UI/UX",
+            background: "#181818",
+            image: "../images/XIRI.jpg",
+            height: "30%",
+        },
 
         {
             name: "CGMI",
