@@ -14,7 +14,7 @@ const FeaturedProjects = () => {
         {
             name: "PIP AI",
             task_details: "HTML, CSS, JS, UI/UX, TAILWIND",
-            background: "#181818",
+            background: "#111111",
             image: "../images/pipai.png",
             height: "30%",
         },
